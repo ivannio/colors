@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import arrayMethods from './helpers/arrayMethods';
 
-console.error('wow');
+const init = () => {
+  arrayMethods.init();
+};
+
+init();
